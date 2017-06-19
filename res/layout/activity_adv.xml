@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cjns_community.AdvActivity" >
+
+    <TextView
+  	android:layout_marginTop="20dp"
+  	android:layout_marginLeft="20dp"
+  	android:layout_width="match_parent"
+  	android:layout_height="match_parent"
+  	android:textSize="20sp"
+  	android:text="@string/text_advwindow"
+	/>
+    <TextView
+  	android:layout_marginTop="70dp"
+  	android:layout_marginLeft="20dp"
+  	android:layout_width="match_parent"
+  	android:layout_height="match_parent"
+  	android:text="@string/text_select_image"
+	/>
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/browse"
+        android:text="Browse" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/browse"
+        android:layout_marginTop="20dp"
+        android:id="@+id/selected"
+        android:textStyle="bold"
+        android:textColor="#4189E1"
+        android:textSize="15sp"
+        android:text="@string/selectedFile" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selected"
+        android:layout_marginTop="15dp"
+        android:id="@+id/file_path"
+        android:text="@string/fileSelectErrorMsg"
+        android:textSize="15sp" />
+    
+     <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:id="@+id/postAd"
+        android:text="PostAd" />
+  	
+    <TextView
+  		android:layout_marginTop="300dp"
+  		android:layout_marginLeft="20dp"
+  		android:layout_width="match_parent"
+  		android:layout_height="match_parent"
+  		android:text="Product" />
+    
+	<EditText
+    	android:id="@+id/product"
+    	android:layout_marginTop="290dp"
+    	android:layout_marginLeft="80dp"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="textEmailAddress" />
+	
+	<TextView
+  		android:layout_marginTop="330dp"
+  		android:layout_marginLeft="20dp"
+  		android:layout_width="40dp"
+  		android:layout_height="match_parent"
+  		android:text="Price" />
+    
+	<EditText
+    	android:id="@+id/price"
+    	android:layout_marginTop="320dp"
+    	android:layout_marginLeft="80dp"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="textEmailAddress" />
+	
+	<TextView
+  		android:layout_marginTop="360dp"
+  		android:layout_marginLeft="20dp"
+  		android:layout_width="match_parent"
+  		android:layout_height="match_parent"
+  		android:text="Mobile" />
+    
+	<EditText
+    	android:id="@+id/mobile"
+    	android:layout_marginTop="350dp"
+    	android:layout_marginLeft="80dp"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="textEmailAddress" />
+</RelativeLayout>

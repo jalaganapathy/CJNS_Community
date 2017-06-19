@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<TextView
+  android:layout_marginTop="40dp"
+  android:layout_marginLeft="10dp"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:textSize="20sp"
+  android:text="@string/text_easwindow"
+/>
+<EditText
+    android:id="@+id/eas_msg"
+    android:layout_marginTop="80dp"
+    android:layout_marginLeft="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/eas_hint"
+    android:inputType="textEmailAddress"
+    android:imeOptions="actionSend"  />
+
+</RelativeLayout>

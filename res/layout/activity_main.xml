@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cjns_community.MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_welcome" />
+    
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_eas"
+        android:id="@+id/easbuttonId"
+        android:onClick="enableEASWindow" />
+
+    <Button
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_adv"
+        android:id="@+id/advButtonId"
+        android:onClick="enableAdvWindow" />
+    <!-- 
+    <Button
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_signature"
+        android:id="@+id/sigButtonId"
+        android:onClick="enableSignatureWindow" />
+    -->
+    <TextView
+  		android:layout_marginTop="180dp"
+  		android:layout_marginLeft="40dp"
+  		android:layout_width="match_parent"
+  		android:layout_height="match_parent"
+  		android:text="@string/text_sigwWindow" />
+    
+	<EditText
+    	android:id="@+id/sig_msg"
+    	android:layout_marginTop="240dp"
+    	android:layout_marginLeft="40dp"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="@string/sig_hint"
+    	android:inputType="textEmailAddress" />
+	
+	 <TextView
+  		android:layout_marginTop="300dp"
+  		android:layout_marginLeft="40dp"
+  		android:layout_width="match_parent"
+  		android:layout_height="match_parent"
+  		android:text="@string/text_ipwindow" />
+    
+	<EditText
+    	android:id="@+id/ip_msg"
+    	android:layout_marginTop="330dp"
+    	android:layout_marginLeft="40dp"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="@string/ip_hint"
+    	android:text="192.168.118.100"
+    	android:inputType="textEmailAddress" />
+</RelativeLayout>

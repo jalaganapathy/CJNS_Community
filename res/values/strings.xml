@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CJNS_Community</string>
+    <string name="text_welcome">Welcome to the Community!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_eas">EAS</string>
+    <string name="button_adv">Post ADV</string>
+    <string name="button_signature">Signature</string>
+    <string name="text_easwindow">EAS Screen</string>
+    <string name="text_advwindow">AD Screen</string>
+    <string name="eas_name">EAS Menu</string>
+    <string name="eas_hint">EAS Message</string>
+    <string name="text_sigwWindow">Enter your Signature</string>
+    <string name="sig_hint">Signature</string>
+    <string name="ip_hint">IPAddress</string>
+    <string name="title_activity_adv">AdvActivity</string>
+    <string name="title_activity_sig">AdvActivity</string>
+    <string name="text_ipwindow">IP Address</string>
+    <string name="title_filePicker">FilePicker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="selectedFile">Selected file</string>
+    <string name="fileSelectErrorMsg">No file has been selected</string>
+    <string name="fileName">Filename</string>
+    <string name="placeholder">filler</string>
+    <string name="text_select_image">Select the image</string>
+
+</resources>
